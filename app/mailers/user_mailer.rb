@@ -1,6 +1,6 @@
 class UserMailer < ApplicationMailer
 
-  default from: 'no-reply@website.fr' # permet de renseigner l'adresse par defaut qui envoie les mails de notre app.
+  default from: 'n.cubilier@gmail.com' # permet de renseigner l'adresse par defaut qui envoie les mails de notre app.
 
   def welcome_email(user)
     #on récupère l'instance user pour ensuite pouvoir la passer à la view en @user

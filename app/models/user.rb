@@ -9,4 +9,4 @@ class User < ApplicationRecord
 
 
 
-end # fin de la clazsse 'User'
+end # fin de la classe 'User'
